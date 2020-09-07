@@ -1,0 +1,359 @@
+{
+  "id": "56924123-1527-4773-aa67-010c12d15c37",
+  "version": "2.0",
+  "name": "Arabam1",
+  "url": "https://www.arabam.com",
+  "tests": [{
+    "id": "45ae7db8-53ad-4ed2-885d-ee87759d1618",
+    "name": "testname",
+    "commands": [{
+      "id": "af7bf650-a826-46e0-9a41-75ec6e547470",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "54461687-3fb9-406d-a520-6684c3e7fc0f",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "694x484",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "918e5ca1-f373-436b-a957-234b2bd4e0be",
+      "comment": "",
+      "command": "click",
+      "target": "id=search-suggestion-trigger-input",
+      "targets": [
+        ["id=search-suggestion-trigger-input", "id"],
+        ["css=#search-suggestion-trigger-input", "css:finder"],
+        ["xpath=//input[@id='search-suggestion-trigger-input']", "xpath:attributes"],
+        ["xpath=//div[@id='header-search-wrapper']/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6fc9cc0f-fb8f-4cb3-82be-761f62debf82",
+      "comment": "",
+      "command": "type",
+      "target": "id=search-suggestion-trigger-input",
+      "targets": [
+        ["id=search-suggestion-trigger-input", "id"],
+        ["css=#search-suggestion-trigger-input", "css:finder"],
+        ["xpath=//input[@id='search-suggestion-trigger-input']", "xpath:attributes"],
+        ["xpath=//div[@id='header-search-wrapper']/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/input", "xpath:position"]
+      ],
+      "value": "1997 ford escort"
+    }, {
+      "id": "c5e411b9-5c03-442f-9fd8-ecd8930150f7",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "id=search-suggestion-trigger-input",
+      "targets": [
+        ["id=search-suggestion-trigger-input", "id"],
+        ["css=#search-suggestion-trigger-input", "css:finder"],
+        ["xpath=//input[@id='search-suggestion-trigger-input']", "xpath:attributes"],
+        ["xpath=//div[@id='header-search-wrapper']/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "618824de-8bc7-4166-b088-85eb1b38ee8c",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,403)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8edb1825-5b79-402b-8743-23bb7590a6c6",
+      "comment": "",
+      "command": "click",
+      "target": "css=.facet-content:nth-child(2) .one-line-overflow",
+      "targets": [
+        ["css=.facet-content:nth-child(2) .one-line-overflow", "css:finder"],
+        ["xpath=//div[@id='il']/div[2]/a/p", "xpath:idRelative"],
+        ["xpath=//a/p", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "72be8823-7415-4581-9210-b39806e4e2b3",
+      "comment": "",
+      "command": "click",
+      "target": "css=.br0",
+      "targets": [
+        ["css=.br0", "css:finder"],
+        ["xpath=(//input[@type='text'])[4]", "xpath:attributes"],
+        ["xpath=//div[@id='il']/div[2]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6088956e-8f25-4438-a975-1495435aa90f",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "name=Kocaeli",
+      "targets": [
+        ["name=Kocaeli", "name"],
+        ["css=#wBH_kocaeli > .mr8", "css:finder"],
+        ["xpath=//input[@name='Kocaeli']", "xpath:attributes"],
+        ["xpath=//label[@id='wBH_kocaeli']/input", "xpath:idRelative"],
+        ["xpath=//label/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "61d8335a-ca97-4261-8924-39942dcffca1",
+      "comment": "",
+      "command": "type",
+      "target": "css=.br0",
+      "targets": [
+        ["css=.br0", "css:finder"],
+        ["xpath=(//input[@type='text'])[4]", "xpath:attributes"],
+        ["xpath=//div[@id='il']/div[2]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/input", "xpath:position"]
+      ],
+      "value": "kocae"
+    }, {
+      "id": "7b3cd1e8-1622-456b-85b0-3573cd930308",
+      "comment": "",
+      "command": "click",
+      "target": "css=#wBH_kocaeli > .checkmark",
+      "targets": [
+        ["css=#wBH_kocaeli > .checkmark", "css:finder"],
+        ["xpath=//label[@id='wBH_kocaeli']/span", "xpath:idRelative"],
+        ["xpath=//label/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a4b14324-2d11-49ca-acc9-381341fbc162",
+      "comment": "",
+      "command": "click",
+      "target": "css=.flf-close > .fa",
+      "targets": [
+        ["css=.flf-close > .fa", "css:finder"],
+        ["xpath=//div[@id='il']/div[2]/div/a/i", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/div/a/i", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "21da5223-1e74-4d25-8479-19a92fbb4c1c",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=#listing14443511 .listing-image",
+      "targets": [
+        ["css=#listing14443511 .listing-image", "css:finder"],
+        ["xpath=//img[@alt='Sahibinden Ford Escort 1.6 CLX 1997 Model']", "xpath:img"],
+        ["xpath=//tr[@id='listing14443511']/td/div/a/img", "xpath:idRelative"],
+        ["xpath=//td/div/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9461ea3a-ec41-4be4-8a55-526f9d5f8947",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=#listing14443511 .listing-image",
+      "targets": [
+        ["css=#listing14443511 .listing-image", "css:finder"],
+        ["xpath=//img[@alt='Sahibinden Ford Escort 1.6 CLX 1997 Model']", "xpath:img"],
+        ["xpath=//tr[@id='listing14443511']/td/div/a/img", "xpath:idRelative"],
+        ["xpath=//td/div/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a15cc81a-492a-4a06-930b-0256d9b1e9ed",
+      "comment": "",
+      "command": "click",
+      "target": "css=.facet-content:nth-child(3) .one-line-overflow",
+      "targets": [
+        ["css=.facet-content:nth-child(3) .one-line-overflow", "css:finder"],
+        ["xpath=//div[@id='il']/div[3]/a/p", "xpath:idRelative"],
+        ["xpath=//div[3]/a/p", "xpath:position"],
+        ["xpath=//p[contains(.,'İlçe')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "590738a4-c1f5-4087-8a67-887989c235e6",
+      "comment": "",
+      "command": "click",
+      "target": "css=.br0",
+      "targets": [
+        ["css=.br0", "css:finder"],
+        ["xpath=(//input[@type='text'])[4]", "xpath:attributes"],
+        ["xpath=//div[@id='il']/div[3]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6348455c-9926-454c-85ff-72ff92b09f45",
+      "comment": "",
+      "command": "type",
+      "target": "css=.br0",
+      "targets": [
+        ["css=.br0", "css:finder"],
+        ["xpath=(//input[@type='text'])[4]", "xpath:attributes"],
+        ["xpath=//div[@id='il']/div[3]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/input", "xpath:position"]
+      ],
+      "value": "geb"
+    }, {
+      "id": "89fd64bf-794d-4119-8ae6-a8f3ac696425",
+      "comment": "",
+      "command": "click",
+      "target": "css=#wBH_gebze548 > .checkmark",
+      "targets": [
+        ["css=#wBH_gebze548 > .checkmark", "css:finder"],
+        ["xpath=//label[@id='wBH_gebze548']/span", "xpath:idRelative"],
+        ["xpath=//label/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "da4896a9-a1db-45f4-8964-e582bd38e3d7",
+      "comment": "",
+      "command": "click",
+      "target": "css=.flf-close > .fa",
+      "targets": [
+        ["css=.flf-close > .fa", "css:finder"],
+        ["xpath=//div[@id='il']/div[3]/div/a/i", "xpath:idRelative"],
+        ["xpath=//div[3]/div/a/i", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5c724716-1bc1-46fa-95fb-ca0f7e6717b2",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn-red",
+      "targets": [
+        ["css=.btn-red", "css:finder"],
+        ["xpath=//input[@value='Ara']", "xpath:attributes"],
+        ["xpath=//div[@id='js-hook-for-listing-submit-cta']/input", "xpath:idRelative"],
+        ["xpath=//form/div[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b9868b9b-bc91-44a8-92c8-1a7438a0ed25",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,354)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9a98271c-5977-4127-8f96-53c934272e85",
+      "comment": "",
+      "command": "click",
+      "target": "css=.listing-image",
+      "targets": [
+        ["css=.listing-image", "css:finder"],
+        ["xpath=//img[@alt='Sahibinden Ford Escort 1.6 CLX 1997 Model']", "xpath:img"],
+        ["xpath=//tr[@id='listing14199226']/td/div/a/img", "xpath:idRelative"],
+        ["xpath=//td/div/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c22843b2-4a58-4422-8e2a-5de4f51063eb",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.slick-wrapper:nth-child(1) > .loading",
+      "targets": [
+        ["css=.slick-wrapper:nth-child(1) > .loading", "css:finder"],
+        ["xpath=//img[@alt='Sahibinden Ford Escort 1.6 CLX 1997 Model']", "xpath:img"],
+        ["xpath=//div[@id='js-hook-for-main-slider']/div/div/a/img", "xpath:idRelative"],
+        ["xpath=//div/div/div/div/div/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "24a265e5-69b2-46fd-a05f-6d0c00f9a7d2",
+      "comment": "",
+      "command": "click",
+      "target": "id=search-suggestion-trigger-input",
+      "targets": [
+        ["id=search-suggestion-trigger-input", "id"],
+        ["css=#search-suggestion-trigger-input", "css:finder"],
+        ["xpath=//input[@id='search-suggestion-trigger-input']", "xpath:attributes"],
+        ["xpath=//div[@id='header-search-wrapper']/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8591a7e5-bbc3-4d2b-bd15-7ba2c00bb68d",
+      "comment": "",
+      "command": "type",
+      "target": "id=search-suggestion-trigger-input",
+      "targets": [
+        ["id=search-suggestion-trigger-input", "id"],
+        ["css=#search-suggestion-trigger-input", "css:finder"],
+        ["xpath=//input[@id='search-suggestion-trigger-input']", "xpath:attributes"],
+        ["xpath=//div[@id='header-search-wrapper']/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/input", "xpath:position"]
+      ],
+      "value": "2001 VW golf"
+    }, {
+      "id": "22d5cf7e-32c3-45ea-9590-11fff637fdb1",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "id=search-suggestion-trigger-input",
+      "targets": [
+        ["id=search-suggestion-trigger-input", "id"],
+        ["css=#search-suggestion-trigger-input", "css:finder"],
+        ["xpath=//input[@id='search-suggestion-trigger-input']", "xpath:attributes"],
+        ["xpath=//div[@id='header-search-wrapper']/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "eb59d7bb-129e-447a-8587-a41bc05f2e6e",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,368)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "cde87976-e4f7-4f89-bfa8-640034608c4d",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=İl",
+      "targets": [
+        ["linkText=İl", "linkText"],
+        ["css=.facet-content:nth-child(2) > .select-lookalike-button", "css:finder"],
+        ["xpath=//div[@id='il']/div[2]/a", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/div[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "faf6a529-64f9-4538-af88-5ac397b8e517",
+      "comment": "",
+      "command": "click",
+      "target": "css=.flf-close > .fa",
+      "targets": [
+        ["css=.flf-close > .fa", "css:finder"],
+        ["xpath=//div[@id='il']/div[2]/div/a/i", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/div/a/i", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "08c884ee-d562-4ccb-a68e-0f249694f113",
+      "comment": "",
+      "command": "assertTitle",
+      "target": "Satılık 2.El Araçlar | Satılık Arabalar ve Fiyatları | arabam.com",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e18714af-0990-4395-a6c0-7ef32bfc271a",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "edf5e6a5-f420-4248-8714-ba425f211919",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["45ae7db8-53ad-4ed2-885d-ee87759d1618"]
+  }],
+  "urls": ["https://www.arabam.com/"],
+  "plugins": []
+}
